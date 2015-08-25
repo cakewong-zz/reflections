@@ -1,1 +1,2 @@
-the first text
+the first test
+the second test
