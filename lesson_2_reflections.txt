@@ -1,0 +1,15 @@
+
+this is lesson_2_reflections.txt
+
+What happens when you initalize a repository? Why do you need to do it?
+
+	git init  # in a empty floder or exsiting file floder run the code,
+             # it will be create a series of file contains .git floder, zero commit.
+	git log  # it display 'fatal: bad default revision ''HEAD''', this mean no commit, so.
+    	git status  # initial commit and found untracked files
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	git add  # the operation let specific file or files to staging area
+	git status  # check out tracked file in the staging area and untrack file in working				# directory
+	I think staging area is just the cache area bettwen working directory and repository.
+	staging area offers a single commit, this commit will contains less than one files
