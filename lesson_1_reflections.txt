@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    move to related dir and type command : FC filename1 filename2   # windows system command line
+										 : diff -u filename1 filename2   # unix/linux system command line
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	not that habit, I cann't use dropbox and google service wiki for some reasons, I am just a newbie
+	you used Dropbox, wiki, google docs, manual commits or git
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    clear and logical purpose. don't work too much without commitss
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    because most time, a commit will refer to multiple file we restored them to a  repository in a project, these changes connects together
+
+How can you use the commands git log and git diff to view the history of files?
+
+    command line: git log  # hit into a project, show recent commits
+				: git diff commitSHA1_hashcode_0 commitSHA1_hashcode_1  # show two commits diff
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	I indeed more confident more
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    learn Git and github more better for Udacity course Developing android app and Android development for beginners
