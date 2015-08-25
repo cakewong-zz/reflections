@@ -13,3 +13,6 @@ What value do you think it offers?
 	git status  # check out tracked file in the staging area and untrack file in working				# directory
 	I think staging area is just the cache area bettwen working directory and repository.
 	staging area offers a single commit, this commit will contains less than one files
+How can you use the staging area to make sure you have one commit per logical change?
+	git diff  # the diff bettwen working directory and staging area
+	git diff --staged  # you can know what you added into staging area by comparTo repo
