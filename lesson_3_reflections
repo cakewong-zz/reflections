@@ -1,2 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
-	# keep project safe, share little partner, team work, convenient 
+	# keep project safe, share little partner, team work, convenient
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	# That's Git, DVCS is good at this. Maybe the system need update this featrue
+
