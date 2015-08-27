@@ -1,18 +1,36 @@
-
 this is lesson_2_reflections.txt
 
 What happens when you initalize a repository? Why do you need to do it?
 
 	git init  # in a empty floder or exsiting file floder run the code,
-             # it will be create a series of file contains .git floder, zero commit.
+        	# it will be create a series of file contains .git floder, zero commit.
 	git log  # it display 'fatal: bad default revision ''HEAD''', this mean no commit, so.
     	git status  # initial commit and found untracked files
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 	git add  # the operation let specific file or files to staging area
 	git status  # check out tracked file in the staging area and untrack file in working				# directory
 	I think staging area is just the cache area bettwen working directory and repository.
 	staging area offers a single commit, this commit will contains less than one files
+
 How can you use the staging area to make sure you have one commit per logical change?
 	git diff  # the diff bettwen working directory and staging area
 	git diff --staged  # you can know what you added into staging area by comparTo repo
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+	git branch new_branch  # just common with origin branch cause copy that
+	git branch  # show HEAD patch which branch with "git checkout branch_name" to switch
+
+How di the diagrams help you visualize the branch structure?
+	git log --graph --oneline [branch_name | branch_name1 ...]  # this action can show 
+		# all of branchs different by listing commits
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	git checkout branch_a  # sure the branch is one of both
+	git merge branch_a branch_b  # even "git merge branch_b" in the position of branch_a
+		# the kind of behavior is good
+	git log --graph --oneline  # for best visual experience
+
+
