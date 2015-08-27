@@ -33,4 +33,8 @@ What is the result of merging two branches together? Why do we represent it in t
 		# the kind of behavior is good
 	git log --graph --oneline  # for best visual experience
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	# Everthing is ok, merging is automatic complete! 
+	# But when you are merging master and branch_a, then the progress exsit conflics.
+	# Now you should handle manually the conflic.
 
